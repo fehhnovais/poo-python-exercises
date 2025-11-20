@@ -26,14 +26,6 @@ class Funcionario(Pessoa):
             f"Salário: R$ {self.salario:.2f}"
         )
 
-
-class Tutor(Pessoa):
-    def __init__(self, nome, CPF, data_nascimento, area_atuacao):
-        super().__init__(nome, CPF, data_nascimento)
-        self.area_atuacao = area_atuacao
-
-    def apresentar(self):
-        return f"Área de Atuação: {self.area_atuacao}"
     
 
 funcionario = Funcionario("Ana Costa", "111.222.333-44", "20/03/1988", "Coordenadora", 4500.0)
