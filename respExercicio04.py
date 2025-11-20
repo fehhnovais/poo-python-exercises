@@ -25,4 +25,11 @@ class Tutor(Pessoa):
             return (f" Área de Atuação: {self.area_atuacao}")
     
 
+funcionario = Funcionario("João Silva", "123.456.789-00", "01/01/1990", "Secretário")
+tutor = Tutor("Maria Santos", "987.654.321-00", "15/05/1985", "Programação")
+
+print(funcionario.apresentar())
+print(tutor.apresentar())
+    
+
     
